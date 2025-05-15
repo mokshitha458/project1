@@ -3,18 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Weather Forecast</title>
+  <title>Aloe Vera Skincare Gel</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Weather Forecast</h1>
-    <input type="text" id="cityinput" placeholder="Enter city name" />
-    <button onclick="getweather()">check Weather</button>
-    <button onclick="getlocationweather()">Use My Location</button>
-    <div id="forecast"></div>
-  </div>
+  <header>
+    <nav>
+      <h1>GlowSkin</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#buy">Buy Now</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <script src="script.js"></script>
+  <section id="home" class="landing">
+    <div class="content">
+      <h2>Natural Aloe Vera Gel for Glowing Skin</h2>
+      <p>Hydrate. Heal. Glow. Pure skincare from nature.</p>
+      <a href="#buy" class="btn">Buy Now</a>
+    </div>
+    <div class="image">
+      <img src="product.jpg" alt="Aloe Vera Product" />
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About the Product</h2>
+        <p>GlowSkin Aloe Vera Gel is a pure skincare formula enriched with cucumber to hydrate dry skin, reduce signs of aging, and promote natural glow. Perfect for face and body use.</p>
+      </div>
+      <div class="about-image">
+        <img src="glass-aloe-vera.jpg" alt="Aloe Vera Juice" />
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="benefits">
+    <h2>Benefits</h2>
+    <ul>
+      <li>🌿 100% Natural Ingredients</li>
+      <li>💧 Deep Hydration</li>
+      <li>🛡️ Reduces Acne and Redness</li>
+      <li>🌞 Soothes Sunburns</li>
+      <li>🧖‍♀️ Suitable for All Skin Types</li>
+    </ul>
+  </section>
+
+  <section id="buy" class="buy">
+    <h2>Get Your Glow Today!</h2>
+    <p>Order now and experience the natural magic of Aloe Vera on your skin.</p>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GlowSkin. All rights reserved.</p>
+  </footer>
 </body>
 </html>
