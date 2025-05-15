@@ -1,76 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title> portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-    <h1>
-        welcome to my portfolio
-    </h1>
-    <h3>
-    <button><a href="about"></a>about</button>
-    <button><a href="skills"></a>skills</button>
-    <button><a href="projects"></a>projects</button> </h3>
+  <div class="container">
+    <h1>Weather Forecast</h1>
+    <input type="text" id="cityinput" placeholder="Enter city name" />
+    <button onclick="getweather()">check Weather</button>
+    <button onclick="getlocationweather()">Use My Location</button>
+    <div id="forecast"></div>
+  </div>
 
-
-    <h2>I am s.mokshitha</h2>
-    <p>full stack web developer</p>
-
-
-
-    <h2> about</h2>
-    
-    <p>I am a passionate web developer.I enjoy building web applications.
-    </p>
-    <h3>carrier objective :</h3>
-    <p>seeking a challenging position and to work in a reputed
-        company where i can use technical skills and soft skills 
-        for the development of the company as well as  my professional growth.
-    </p>
-
-    <h2> skills</h2>
-
-    <ul>
-        <ol>
-        <li>html and css</li>
-        <li>mysql</li>
-        <li>python</li>
-        </ol>
-    </ul>
-    <h2>
-        projects
-    </h2>
-    <ol>
-        <li>
-            i have completed a project on waste to hydrogen :a sustainable
-            approach for clean energy generation.
-
-        </li>
-        <li>
-            currently working on design of on board fast charger using cuk converter.
-        </li>
-        <li>i have created product landing using html  and css.</li>
-        <li>
-            i have created my portfolio using html and css.
-        </li>
-    </ol>
-
-
-
-    <footer>
-        <p>&copy;2025 s.mokshitha. ALL rights reserved</p>
-    </footer>
-
-
-    
-    
-
-    
-
-</div>   
+  <script src="script.js"></script>
 </body>
 </html>
